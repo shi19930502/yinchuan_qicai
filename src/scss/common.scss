@@ -1,0 +1,204 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+
+button,
+input,
+select,
+textarea {
+    font-family: inherit; /* 1 */
+    font-size: 100%; /* 2 */
+    margin: 0; /* 3 */
+    padding: 0;
+}
+button,
+input {
+    line-height: normal;
+}
+
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* html5boilerplate.com Clearfix
+--------------------------------- */
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.clearfix {
+  *zoom: 1;
+}
+html,body{
+    line-height: .4rem;
+    font-size: .24rem;
+}
+img{
+    display: block;
+}
+div,
+p {
+    word-break: break-all;
+}
+//内容
+.content {
+    width: 100%;
+    overflow: hidden;
+    padding: 0.23rem;
+    box-sizing: border-box;
+    background: rgba(0, 161, 76, 0.3);
+//  background: rgba(111,162,37,.3);
+}
+.swiper-pagination-base,
+.swiper-pagination-cooked,
+.swiper-pagination-enterprise,
+.swiper-pagination-enterpriseOpen,
+.swiper-pagination-farm,
+.swiper-pagination-farmChildrenPopupShow,
+.swiper-pagination-honor,
+.swiper-pagination-honorShow,
+.swiper-pagination-vedioShow,
+.swiper-pagination-showImg,
+.swiper-pagination-equipments,
+.swiper-pagination-videoShow {
+    font-size: 0.3rem;
+    text-align: center;
+    margin-top: 0.2rem;
+}
+.swiper-pagination-showImg{
+    color: white;
+}
+.content_header {
+    width: 3.7rem;
+    text-align: center;
+    font-size: 0.38rem;
+    height: 0.4rem;
+    letter-spacing: .06rem;
+    line-height: 0.4rem;
+//  background: url("../assets/img/img_di.png") no-repeat 1rem;
+    background-size: contain;
+    margin: 0.5rem auto 0.52rem;
+    font-weight: bold;
+    color: #639617;
+    .henxian{
+        width: .6rem;
+        height: .04rem;
+        background: #333333;
+        margin:.11rem  auto 0;
+    }
+}
+.van-nav-bar {
+    background: #00A14C;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 555 !important;
+    font-size: 1.2rem;
+    .van-icon {
+        position: relative;
+        z-index: 555;
+        color: white !important;
+    }
+}
+.van-nav-bar__title {
+    font-size: 0.36rem;
+    font-weight: 700;
+}
+.van-nav-bar__arrow,
+.van-nav-bar__text {
+    color: white;
+    font-size: 0.3rem;
+    /*font-weight: bold;*/
+}
+.van-nav-bar__text:active {
+    background: rgba(6,126,263,.5);
+}
+.nav_div {
+    width: 100%;
+    height: 0.92rem;
+}
+.van-popup{
+    background: #4c4c4c;
+}
+.van-swipe{
+    img{
+        width: 100%;
+    }
+}
+.footer {
+    font-size: 0.24rem;
+    text-align: center;
+    background: rgba(0, 161, 76, 0.3);
+    padding-top: .2rem;
+    .footerName {
+        color: rgba(27, 43, 2, 1);
+    }
+    .jszc {
+        color: rgba(121, 122, 120, 1);
+        padding: 0.19rem 0 0.61rem;
+
+    }
+}
+.client ,.feedback,.news{
+    .footer{
+        background: white;
+    }
+}
+.van-popup{
+    background: #4c4c4c;
+}
+.van-modal{
+    background: #4c4c4c;
+}

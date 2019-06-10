@@ -1,0 +1,33 @@
+.monitoring {
+
+    .content {
+        background: white;
+        padding: 0;
+        .content_list {
+            padding: 0 0.3rem;
+            border-bottom: 0.1rem solid #F2F2F2;
+            color: #2C2E2C;
+            video {
+                width: 100%;
+                display: block;
+                height: 100%;
+            }
+            .title {
+                font-size: 0.36rem;
+                font-weight: bold;
+                padding: 0.33rem 0 0;
+//              padding: 0.33rem 0 0.35rem;
+            }
+            .name {
+                padding: 0.14rem 0 0.35rem;
+            }
+
+        }
+        .no_video {
+            font-size: 0.46rem;
+            color: #666666;
+            text-align: center;
+            margin-top: 1.2rem;
+        }
+    }
+}
